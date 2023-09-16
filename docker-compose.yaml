@@ -8,6 +8,7 @@ services:
     restart: unless-stopped
 
   rest-api:
+    image: csv-rest-api
     build:
       context: .
       dockerfile: docker/Dockerfile1
