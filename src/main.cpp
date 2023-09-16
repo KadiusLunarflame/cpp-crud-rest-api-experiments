@@ -263,11 +263,15 @@ auto main() -> int {
                     query3 += " WHERE ";
                     //TODO:: solve problems with escaping ' character in conditions with VARCHAR
                     std::string q = body["conditions"].s();
-//                    std::string q2 = "Month = 'FEB'";
-//
-//                    std::cout << q << std::endl;
-//                    std::cout << q2 << std::endl;
 
+                    query3 += q;
+
+                    return commit_txn(query3, txn);
+                }
+
+                if(operation == "select order") {
+                    query3 += " ORDER BY ";
+                    std::string q = body["order"].s();
                     query3 += q;
 
                     return commit_txn(query3, txn);
