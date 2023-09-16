@@ -1,10 +1,12 @@
 # cpp-crud-rest-api-experiments
 
 ## Docker deployment
-git clone --recursive --remote  https://github.com/KadiusLunarflame/cpp-crud-rest-api-experiments 
+Run the following commands:
+
++ git clone --recursive --remote  https://github.com/KadiusLunarflame/cpp-crud-rest-api-experiments 
 
 Inside project directory:<br>
-docker-compose build && docker-compose up<br>
++ docker-compose build && docker-compose up<br>
 
 These run a csv-processing server on port 18481 and a postgre db server that the csv-server works with.
 
