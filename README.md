@@ -52,7 +52,7 @@ JSON structure("condition" field is in sql-compatible format):
 ```json
 {
   "filename":"filename.csv",
-  "operation": "select",
+  "operation": "select where",
   "select_col_names": "col1,col2,col3,...",
   "conditions": "col1 < 100..."
 }
