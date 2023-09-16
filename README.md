@@ -59,6 +59,17 @@ JSON structure("condition" field is in sql-compatible format):
 ```
 ![img_4.png](img_4.png)
 
+*Retrieve columns in specific order
+```json
+{
+  "filename":"filename.csv",
+  "operation": "select order",
+  "select_col_names": "col1,col2,col3,...",
+  "order": "col1 [asc/desc], col2 [asc/desc], ..."
+}
+```
+![img_6.png](img_6.png)
+
 * Retrieve columns with filtering conditions and ordering ("select where order" operation)<br>
   JSON structure("condition" field is in sql-compatible format):
 ```json
