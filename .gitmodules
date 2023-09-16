@@ -1,0 +1,12 @@
+[submodule "libs/crow"]
+	path = libs/crow
+	url = https://github.com/crowcpp/crow.git
+[submodule "libs/libpqxx"]
+	path = libs/libpqxx
+	url = https://github.com/jtv/libpqxx.git
+[submodule "wait-for-it"]
+	path = wait-for-it
+	url = https://github.com/vishnubob/wait-for-it
+[submodule "tools/wait-for-it"]
+	path = tools/wait-for-it
+	url = https://github.com/vishnubob/wait-for-it
