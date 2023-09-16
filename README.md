@@ -59,7 +59,7 @@ JSON structure("condition" field is in sql-compatible format):
 ```
 ![img_4.png](img_4.png)
 
-* Retrieve columns with filtering conditions and ordering ("select where order" operation)
+* Retrieve columns with filtering conditions and ordering ("select where order" operation)<br>
   JSON structure("condition" field is in sql-compatible format):
 ```json
 {
