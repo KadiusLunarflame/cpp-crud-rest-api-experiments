@@ -69,7 +69,7 @@ JSON structure("condition" field is in sql-compatible format):
   "conditions": "col1 < 100...",
   "order":"col1 [asc/desc], col2 [asc, desc], ..."
 }
-
+```
 ![img_5.png](img_5.png)
 
 
