@@ -15,7 +15,7 @@ API uses JSONs for communication.
 
 * Upload file to server
 
-To upload a file to server one must send a json object message containing the file to .<br>
+To upload a file to server one must send a json object message containing the file.<br>
 
 Example: <br>
 
