@@ -59,7 +59,7 @@ JSON structure("condition" field is in sql-compatible format):
 ```
 ![img_4.png](images/img_4.png)
 
-*Retrieve columns in specific order
+* Retrieve columns in specific order
 ```json
 {
   "filename":"filename.csv",
